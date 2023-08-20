@@ -52,14 +52,15 @@ public class Radio {
         }
         this.currentVolume = currentVolume;
     }
+
     public void max() {
         if (currentVolume != 100) {
             currentVolume++;
             return;
-        }    else  {
+        } else {
             currentVolume = currentVolume;
         }
-}
+    }
 
     public void min() {
         if (currentVolume != 0) {
@@ -67,7 +68,7 @@ public class Radio {
         } else {
             currentVolume = currentVolume;
         }
-}
+    }
 }
 
 
